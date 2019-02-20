@@ -1,3 +1,8 @@
-_site/
+# macOS stuff
+.DS_Store
+
+# Node stuff
 node_modules/
-package-lock.json
+
+# Eleventy stuff
+_site/

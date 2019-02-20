@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bbf28a84-4bdb-407b-a2fa-32628d27fa3d/deploy-status)](https://app.netlify.com/sites/eleventy-netlify-boilerplate/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3f53bf5-1904-4b0c-ad30-9d49d89e8c9a/deploy-status)](https://app.netlify.com/sites/infallible-noyce-df4077/deploys)
 
-# Eleventy Netlify Boilerplate
+# jdsimcoe.com
 
 ## What is it?
 
@@ -10,9 +10,7 @@ Use it as a starter for your own projects or as an easy way to get started build
 
 Based on the [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog) repo (see there for additional info on Eleventy usage).
 
-🔥 **This project is featured on Netlify's official [template showcase](https://templates.netlify.com/template/eleventy-netlify-boilerplate/) and blog: [The top 10 Static Site Generators to watch in 2018](https://templates.netlify.com/template/eleventy-netlify-boilerplate/)** 🔥
-
-## [Demo Site](https://eleventy-netlify-boilerplate.netlify.com//)
+## [Live Site](https://jdsimcoe.com/)
 
 ## Features
 
@@ -29,7 +27,7 @@ Based on the [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog) re
 
 ## Want to try it out now?
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jdsimcoe/jdsimcoe.com&stack=cms)
 
 Clicking the button above will deploy a copy of the demo website to your Netlify
 account (you can create an account during this process if you don't have one)
@@ -72,15 +70,15 @@ If you need any help with setting up Netlify CMS, you can reach out to the Netli
 
 ### 1. Clone this repository:
 
-```
-git clone https://github.com/danurbanowicz/eleventy-netlify-boilerplate.git my-blog-name
+```sh
+git clone git@github.com:jdsimcoe/jdsimcoe.com.git jdsimcoe
 ```
 
 
 ### 2. Navigate to the directory
 
-```
-cd my-blog-name
+```sh
+cd jdsimcoe
 ```
 
 Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
@@ -97,18 +95,26 @@ This file contains your site title and author details.
 
 ### 5. Run Eleventy (builds the site)
 
-```
+```sh
 npx eleventy
 ```
 
 Or build automatically when a template changes:
-```
+
+```sh
 npx eleventy --watch
 ```
 
 Or in debug mode:
-```
+
+```sh
 DEBUG=* npx eleventy
+```
+
+To watch and build together:
+
+```sh
+npm run start
 ```
 
 ## Bug reports, feature requests, etc

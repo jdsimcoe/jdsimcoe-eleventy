@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://rsms.me/inter/inter.css');
+
 :root {
-	--turkey: #FFF0EB;
+	--backdrop: #EFEFEC;
 	--white: white;
-	--blue: blue;
+	--gray: #333332;
+	--yellow: #E9CF49;
 }
 
 *, *:before, *:after {
@@ -12,18 +16,23 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html, body { font-family: 'Inter var', sans-serif; }
 }
 
 body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background-color: var(--turkey);
+	background-color: var(--backdrop);
+	color: var(--gray);
 }
 
 main {
-	max-width: 37.5em;
+	max-width: 37.5rem;
 }
 
 p,
@@ -34,26 +43,27 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--blue);
+	position: relative;
+	z-index: 2;
+	color: var(--gray);
 }
 
 a[href]:not(:hover) {
 	text-decoration: none;
 }
 
-header,
+a[href]:hover {
+	text-decoration: none;
+	border-bottom: 2px solid var(--gray);
+}
+
+header {
+	padding: 1rem;
+}
+
 main,
 footer {
-	padding: 1em;
-}
-
-main {
-	padding-bottom: 2em;
-}
-
-main :first-child,
-main > article :first-child {
-	margin-top: 0;
+	padding: 2rem;
 }
 
 pre {
@@ -78,40 +88,73 @@ ul {
 	list-style: none;
 }
 
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
+/* Header */
+header .wrap {
+	display: inline-block;
+	border: 1px solid var(--gray);
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: .5rem 1rem;
+	font-weight: 900;
 	font-style: normal;
+	text-transform: uppercase;
 }
 
 /* Header Nav */
-header nav ul :first-child {
-	margin-left: 0;
+header nav ul {
+	display: inline-block;
+	margin: -1px 0 0 0;
+	border: 1px solid var(--gray);
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
 }
+
 
 header nav li {
+	font-size: 1rem;
 	display: inline-block;
-	margin: 0 .5em;
+	margin: 0;
+	padding: 0.5rem 1rem;
+	border-right: 1px solid var(--gray);
 }
 
-header nav li a[href]:not(:hover) {
-	text-decoration: none;
+header nav li:last-child {
+	border-right: none;
 }
 
 header nav li a[data-current="current item"] {
-	font-weight: 700;
-	text-decoration: underline;
+	position: relative;
+}
+
+header nav li a[data-current="current item"]::before,
+header nav li a:hover::before {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	bottom: 2px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 25%;
+	background-color: var(--yellow);
+	border-bottom: none;
+}
+
+header nav li a[href]:hover {
+	border-bottom: none;
 }
 
 /* Posts List */
 article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--white);
+	margin: 4rem 0 2.5rem 0;
+	padding: 0 0 2rem 0;
+	border-bottom: 2px solid var(--white);
 }
 
 article img {
@@ -121,7 +164,7 @@ article img {
 
 main > section > article > * {
 	margin-top: 0;
-	margin-bottom: .5em;
+	margin-bottom: 0.5rem;
 }
 
 /* Post Tags */
@@ -130,22 +173,23 @@ a[rel="tag"]:visited {
 	display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
-	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
+	letter-spacing: 0.05rem;
+	font-weight: 500;
+  font-size: .75rem;
+  padding: 0 .75rem;
 	line-height: 2em;
 	height: 2em;
   border: 1px solid var(--white);
 	background-color: var(--white);
-	color: var(--blue);
+	color: var(--gray);
   border-radius: .25em;
   text-decoration: none;
-	margin: 0 .5em .5em 0;
+	margin: 0 .5em 0 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	border: 1px solid var(--gray);
+	background-color: var(--gray);
 	color: var(--white);
 }
 
@@ -153,7 +197,23 @@ a[rel="tag"]:last-child {
 	margin-right: 0;
 }
 
+
+/* Posts */
+
+article h1 {
+	font-size: 2rem;
+	font-weight: 900;
+	margin-bottom: 0.25rem;
+}
+
+article .metadata {
+	margin-bottom: 2rem;
+	font-family: "Roboto Mono", monospace;
+}
+
+
 /* Contact Form */
+
 form {
   display: grid;
 	padding: 2em 0;
@@ -170,17 +230,18 @@ button {
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	/* font-family: 'Roboto Mono', monospace; */
 }
 
 input,
 textarea {
-	border: 1px solid black;
+	border: 2px solid var(--gray);
+	outline: none;
 }
 
 button {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	border: 1px solid var(--gray);
+	background-color: var(--gray);
 	color: var(--white);
 	cursor: pointer;
 }
@@ -189,4 +250,11 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+
+
+/* Footer */
+
+footer {
+	margin-bottom: 3rem;
 }

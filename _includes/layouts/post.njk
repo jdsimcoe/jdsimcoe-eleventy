@@ -5,11 +5,9 @@ section: post
 
 <article>
   <h1>{{ title }}</h1>
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
-    </small>
-  </p>
+  <div class="metadata">
+    Published on <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
+  </div>
 
   {{ layoutContent | safe }}
 

@@ -2,9 +2,9 @@
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-	--backdrop: #EFEFEC;
+	--backdrop: #E5E5E1;
 	--white: white;
-	--gray: #333332;
+	--gray: #403D30;
 	--yellow: #E9CF49;
 }
 
@@ -17,6 +17,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Inter', sans-serif;
+	letter-spacing: -0.011 em;
 }
 
 @supports (font-variation-settings: normal) {
@@ -39,6 +40,11 @@ p,
 pre,
 code {
 	line-height: 1.5;
+}
+
+pre,
+code {
+	font-family: 'Roboto Mono', monospace;
 }
 
 a[href],
@@ -88,11 +94,15 @@ ul {
 	list-style: none;
 }
 
-/* Header */
-header .wrap {
-	display: inline-block;
-	border: 1px solid var(--gray);
+
+/* Main */
+
+main h4 {
+	text-transform: uppercase;
 }
+
+
+/* Header */
 
 header h1 {
 	display: inline-block;
@@ -102,38 +112,37 @@ header h1 {
 	font-weight: 900;
 	font-style: normal;
 	text-transform: uppercase;
+	border: 1px solid var(--gray);
 }
+
 
 /* Header Nav */
 header nav ul {
 	display: inline-block;
 	margin: -1px 0 0 0;
-	border: 1px solid var(--gray);
-	border-right: none;
-	border-left: none;
-	border-bottom: none;
+	border-left: 1px solid var(--gray);
 }
-
 
 header nav li {
 	font-size: 1rem;
 	display: inline-block;
 	margin: 0;
 	padding: 0.5rem 1rem;
-	border-right: 1px solid var(--gray);
+	border: 1px solid var(--gray);
+	border-left: none;
 }
 
-header nav li:last-child {
-	border-right: none;
+header nav li:nth-child(n+5) {
+	margin-top: -1px;
 }
 
-header nav li a[data-current="current item"] {
+header nav li a[data-current='current item'] {
 	position: relative;
 }
 
-header nav li a[data-current="current item"]::before,
+header nav li a[data-current='current item']::before,
 header nav li a:hover::before {
-	content: "";
+	content: '';
 	display: block;
 	position: absolute;
 	z-index: -1;
@@ -152,9 +161,15 @@ header nav li a[href]:hover {
 
 /* Posts List */
 article {
-	margin: 4rem 0 2.5rem 0;
+	margin: 2.5em 0 2.5em 0;
 	padding: 0 0 2rem 0;
 	border-bottom: 2px solid var(--white);
+}
+
+article h3 {
+	margin-bottom: 0;
+	font-weight: 900;
+	font-size: 1.4rem;
 }
 
 article img {
@@ -164,18 +179,17 @@ article img {
 
 main > section > article > * {
 	margin-top: 0;
-	margin-bottom: 0.5rem;
 }
 
 /* Post Tags */
-a[rel="tag"],
-a[rel="tag"]:visited {
+a[rel='tag'],
+a[rel='tag']:visited {
 	display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-weight: 500;
-  font-size: .75rem;
+  font-size: .65em;
   padding: 0 .75rem;
 	line-height: 2em;
 	height: 2em;
@@ -187,13 +201,13 @@ a[rel="tag"]:visited {
 	margin: 0 .5em 0 0;
 }
 
-a[rel="tag"]:hover {
+a[rel='tag']:hover {
 	border: 1px solid var(--gray);
 	background-color: var(--gray);
 	color: var(--white);
 }
 
-a[rel="tag"]:last-child {
+a[rel='tag']:last-child {
 	margin-right: 0;
 }
 
@@ -207,8 +221,12 @@ article h1 {
 }
 
 article .metadata {
-	margin-bottom: 2rem;
-	font-family: "Roboto Mono", monospace;
+	margin: 0 0 0.75em 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+article .content {
+	margin-top: 2em;
 }
 
 

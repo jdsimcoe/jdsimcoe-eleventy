@@ -174,7 +174,8 @@ article h3 {
 
 article img {
 	max-width: 100%;
-	border-radius: 0.5rem;
+	padding: 10px;
+	border: 1px solid var(--gray);
 }
 
 main > section > article > * {

@@ -1,7 +1,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or metadata.title }}</title>
+  <title>
+    {% if title == 'Home' %}
+      {{ metadata.title }}—{{ metadata.subtitle }}
+    {% else %}
+      {{ title }} | {{ metadata.title }}
+    {% endif %}
+  </title>  
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+  <link rel="mask-icon" href="/static/img/website_icon.svg" color="black">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/inline.css" %}

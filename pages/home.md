@@ -7,10 +7,11 @@ navtitle: Home
 tags:
   - nav
 ---
-# Futurist, with reservations.
+
+# Futurist, with reservations. Designer and web developer for hire. Based in Portland, OR.
 
 This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
 
-#### A History
+#### A Brief History
 
 My experience runs deep in designing products, building websites, growing brands, and executing content strategy:

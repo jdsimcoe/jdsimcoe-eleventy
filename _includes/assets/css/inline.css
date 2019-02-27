@@ -201,7 +201,7 @@ article h3 {
 	text-transform: none;
 }
 
-article img {
+.content img {
 	max-width: 100%;
 	padding: 10px;
 	border: 1px solid var(--gray);

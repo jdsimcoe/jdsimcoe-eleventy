@@ -1,11 +1,15 @@
 {
   "title": "Jonathan Simcoe",
-  "subtitle": "Futurist, Designer, and Web Developer. Based in Portland, OR.",
+  "subtitle": "Futurist, Designer, and Web Developer for hire. Based in Portland, OR.",
   "image": "https://cdn-std.dprcdn.net/files/acc_390897/Kszebr",
   "url": "https://jdsimcoe.com",
   "author": {
     "name": "Jonathan Simcoe",
     "email": "form@jdsimcoe.com",
-    "github": "https://github.com/jdsimcoe"
+    "newsletter": "",
+    "github": "https://github.com/jdsimcoe",
+    "twitter": "https://twitter.com/jdsimcoe",
+    "instagram": "https://www.instagram.com/jdsimcoe/",
+    "dribbble": "https://dribbble.com/jdsimcoe"
   }
 }

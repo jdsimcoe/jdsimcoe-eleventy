@@ -1,27 +1,35 @@
 ---
+layout: layouts/postpost.njk
 title: PostPost
 tags:
   - nav
 navtitle: PostPost
 section: postpost
 date: 2019-02-20
-permalink: /postpost/index.html
+permalink: /postpost/
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+PostPost LLC is a small studio based in Portland, OR focused on product design, web, branding, and strategy—brought to you by Jonathan Simcoe.
 
-#### Our services
+## Services
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+My experience runs deep in designing products, building websites, growing brands, and executing content strategy.
 
-### Blue-sky thinking
+#### Product Design
+Robust design systems, flows, and feature development to help launch or scale your iOS, Android, or web product.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+#### Designing & Building Websites
+Bepoke websites, small or large, CMS or static, built on leading web technologies and made to scale.
 
-#### Management frameworks
+#### Branding
+Building and maintaining a brand requires an audit, a vision, and the grit to create something that will stick.
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+#### Strategy
+Growing and scaling products, brands, and websites requires strategy, an long-term investment for your project.
 
-##### Regulatory convergence
+<br>
+———————
 
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## Start a Project
+
+If you want to work together on a project, use the form believe to give me some context and I'll be in touch:

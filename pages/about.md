@@ -10,20 +10,30 @@ permalink: /about/
 
 ![Jonathan Simcoe](/static/img/headshot.jpg "Jonathan Simcoe")
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+In 2018 I coined a phrase on my Twitter account that has sort of "stuck":
 
-## Our services
+> Futurist, with reservations.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I've never taken the time to properly explain myself. I love new things. I always have. God made me that way. It definitely has it's down sides. I tend to covet anything "shiny" or new, and I think I tend to have a bias towards things that are new, than those that are worn and used.
 
-### Blue-sky thinking
+I'm optimistic about the future. The future of humanity. The future of the Christian Church. The future of my family and children. The future that technology creates and enables.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+But I'm also cautious. I have reservations, because there are many dystopian realities that are upon us, or we are already living in. I think growth and progress should have limits. We should be asking deeper questions about the way achieving the future we have always dreamed of is eroding our freedom and ability to be deeply human.
 
-#### Management frameworks
+Also, our ability to press into the dark unknown, even under the guise of surveilled realities, makes our plight semi-opted-in to, but also cloyingly human.
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+There is hope. There is always hope.
 
-##### Regulatory convergence
+#### Down to Earth
 
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+On a practical level, I'm a designer, developer, and webmaster by trade. I dabble in writing and photography, but I'm most passionate about connecting design and technologies to brands, companies, and stories. The places where all of these collide and intersect I find particularly fascinating. 
+
+#### Oregon
+
+The State of Oregon (in the Pacific Northwest), has been my home all my life. There is something melancholy and magical about this place I live. It still holds many mysteries to me, but it is deeply familiar. Much like God, and much like my beautiful wife.
+
+#### Beyond
+
+I feel like I should have much more to say about myself practically or occupationally, but I think I'll leave things as they are for now. I care deeply about God, and deeply about people. I care about the world we live in, and how the work I do and the relationships I have help form the world into what it is.
+
+I hope you find the content and my work here interesting.

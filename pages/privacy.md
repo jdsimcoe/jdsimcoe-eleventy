@@ -1,7 +1,7 @@
 ---
 title: Privacy
 section: privacy
-date: 2017-01-01
+date: 2019-02-06
 permalink: /privacy/
 ---
 
@@ -11,9 +11,9 @@ First off, let me say that I care deeply about your privacy. The amount of infor
 
 Many web analytics packages collect a large swath of information (some personally identifiable, and some not). We have chosen to use a software packaged called [Fathom](https://usefathom.com/) that protects your personal privacy. To quote from their website:
 
-> “Fathom collects trends and insights, not personal details about specific website visitors.”
+> "Fathom collects trends and insights, not personal details about specific website visitors."
 
-> “Our software collects and stores zero personal information about visitors, making us compliant to all current laws.”
+> "Our software collects and stores zero personal information about visitors, making us compliant to all current laws."
 
 No personal information (IP addresses, cookies, etc.) has been or will be used to identify visitors to this site.
 

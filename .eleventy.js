@@ -66,8 +66,13 @@ module.exports = function(eleventyConfig) {
   let options = {
     html: true,
     breaks: true,
-    linkify: true
+    linkify: true,
+    typographer: true,
+    quotes: '«»‘’',
   };
+
+  eleventyConfig.setLibrary("md", markdownIt(options));
+
   let opts = {
     permalink: true,
     permalinkClass: "direct-link",

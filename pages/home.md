@@ -1,17 +1,17 @@
 ---
 layout: layouts/home.njk
 title: Home
-date: 2016-01-01T00:00:00.000Z
+date: 2019-02-01
 permalink: /
 navtitle: Home
 tags:
   - nav
 ---
 
-# Futurist, with reservations. Designer and web developer for hire. Based in Portland, OR.
+# Futurist, with reservations. Designer, developer, and webmaster for hire. Based in Portland, OR.
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+I'm infinitely curious about design, engineering, the Internet, and faith—and the way each of these intersect with human stories (often in spectacularly messy ways).
 
-#### A Brief History
+#### My Work
 
-My experience runs deep in designing products, building websites, growing brands, and executing content strategy:
+I'm currently doing contract work through [PostPost LLC](/postpost), a small studio focused on design, building websites, and helping clients untagle the complexities of Internet technologies.

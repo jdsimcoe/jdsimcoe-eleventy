@@ -8,7 +8,10 @@
       {{ title }} | {{ metadata.title }}
     {% endif %}
   </title>
+  <meta name="title" content="{{ metadata.title }}">
+  <meta name="description" content="{{ metadata.subtitle }}">
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ metadata.url }}">
   <meta property="og:title" content="{{ metadata.title }}" />
   <meta property="og:site_name" content="{{ metadata.title }}" />
   <meta property="og:description" content="{{ metadata.subtitle }}" />
@@ -16,6 +19,11 @@
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1280" />
   <meta property="og:image:height" content="1280" />
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ metadata.url }}">
+  <meta property="twitter:title" content="{{ metadata.title }}">
+  <meta property="twitter:description" content="{{ metadata.subtitle }}">
+  <meta property="twitter:image" content="{{ metadata.image }}">
   <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
   <link rel="mask-icon" href="/static/img/website_icon.svg" color="black">
   <link rel="alternate" type="application/rss+xml" 

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jd51mc03
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jdsimcoe.com
+  * I am jd51mc03 (https://keybase.io/jd51mc03) on keybase.
+  * I have a public key ASBcvfCiTgs1THmMiPf7czZmrb3ETDMl77vqM6bzN2nDQwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205cbdf0a24e0b354c798c88f7fb733666adbdc44c3325efbbea33a6f33769c3430a",
+      "host": "keybase.io",
+      "kid": "01205cbdf0a24e0b354c798c88f7fb733666adbdc44c3325efbbea33a6f33769c3430a",
+      "uid": "aaa661746f8c907a2ef54e209940db19",
+      "username": "jd51mc03"
+    },
+    "merkle_root": {
+      "ctime": 1542220919,
+      "hash": "288d2e9014ee34747b00268d16cecf889f136933a6a8aab0442d9971f84a1011c4cb39ba16d1d69e52dc9cab94761a9b5a1b435d3aed47c6544be383e440a09c",
+      "hash_meta": "8e185fdee0182083918233a5a5d1b7271f7f3ebfefa279cd99a2c3c5b36c56aa",
+      "seqno": 3953050
+    },
+    "service": {
+      "entropy": "wXn41z63BFenKGNUzw6pQwX5",
+      "hostname": "jdsimcoe.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.9.0"
+  },
+  "ctime": 1542220955,
+  "expire_in": 504576000,
+  "prev": "91c277f79e31db7ab3b40259d8eeeda9a6b3db8ac9350e784b8bf02f93422398",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXL3wok4LNUx5jIj3+3M2Zq29xEwzJe+76jOm8zdpw0MKp3BheWxvYWTESpcCCMQgkcJ3954x23qztAJZ2O7tqaaz24rJNQ54S4vwL5NCI5jEICQLTLooWicUt0AxgUJMD9fdkQR83V9FL8oq1zo+srl/AgHCo3NpZ8RAYQxBdHhC7pxoBJxUIVIQwsZajTqjVSHfJe0Tqai7aRjk+uuOj0gjPiIgPHG+LfsSpOFpbSU5F7nUd5DRFbFABKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILuetvT69hX26l0KnnDpgUKcbBHw8A1XlRrt87uOz7NGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jd51mc03
+
+==================================================================

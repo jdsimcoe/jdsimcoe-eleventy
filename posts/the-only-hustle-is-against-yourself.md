@@ -28,7 +28,7 @@ Second, we view others and their creativity as a threat to our well-being, inste
 
 Unfortunately, social media amplifies both of these in negative ways. Our inward focus and critic rages and we disconnect from meaningful friendships and praise because we feel competitive with others.
 
-We should really be competitive with ourselves. Instead of beating ourselves up for what we haven't done, what we've procrastinated, or the ways that we've failed in our professional pursuits, we should instead chill out and realize that we are only competiting against ourselves.
+We should really be competitive with ourselves. Instead of beating ourselves up for what we haven't done, what we've procrastinated, or the ways that we've failed in our professional pursuits, we should instead chill out and realize that we have a unique work to do that only we are called to do.
 
 We need to embrace our limits and work within them to contribute meaningful and beautiful things to this world.
 

@@ -19,7 +19,7 @@ My experience runs deep in designing products, building websites, growing brands
 Robust design systems, flows, and feature development to help launch or scale your iOS, Android, or web product.
 
 #### Designing & Building Websites
-Bepoke websites, small or large, CMS or static, built on leading web technologies and made to scale.
+Bespoke websites, small or large, CMS or static, built on leading web technologies and made to scale.
 
 #### Branding
 Building and maintaining a brand requires an audit, a vision, and the grit to create something that will stick.
